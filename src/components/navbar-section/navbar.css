@@ -1,0 +1,44 @@
+.bg-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35%;
+}
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333333;
+}
+.navbar ul li {
+  margin: 0 0.3rem;
+}
+.navbar ul li a {
+  font-weight: 400;
+  color: #616161;
+}
+.navbar ul li a:hover {
+  color: #333333;
+}
+.navbar form button:last-child {
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+}
+.navbar form button:last-child:hover {
+  background: none;
+  color: #333333;
+}
+.navbar form button:first-child {
+  border: none;
+  background: none;
+  height: 40px;
+  width: 80px;
+}
+.navbar form button:first-child:hover {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}

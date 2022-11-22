@@ -1,0 +1,33 @@
+.speciality-text {
+  margin-top: 5.5rem;
+}
+.speciality-text .btns {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.speciality-text .btns button {
+  border: none;
+  /* width: 100px; */
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  height: 42px;
+  padding: 0 1.5rem;
+}
+.speciality-text .btns button:hover {
+  background: #03acf2;
+  color: white;
+}
+.speciality-text .active button {
+  background-color: #03acf2;
+  color: white;
+}
+.speciality-text .active button:hover {
+  background: none;
+  color: black;
+}
+.speciality-img img {
+  width: 100%;
+}

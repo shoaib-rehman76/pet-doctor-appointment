@@ -1,0 +1,35 @@
+.available {
+  margin-top: 4rem;
+}
+.available .available-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 19rem;
+}
+.available .available-card .img-div {
+  border-bottom: 1px solid rgb(206, 206, 206);
+  background-color: rgb(0, 124, 240);
+  color: white;
+  border-radius: 5px 5px 0px 0;
+}
+.available .available-card img {
+  width: 50%;
+  border-radius: 100%;
+}
+.available .available-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.available .available-card h5 {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+.available .available-card span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+}
+.available .available-card h6 {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}

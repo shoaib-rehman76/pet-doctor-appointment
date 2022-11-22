@@ -1,0 +1,17 @@
+.doctor-profile {
+  background-color: #ddd;
+}
+.doctor-profile .left-side {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: white;
+}
+.doctor-profile .left-side img {
+  width: 50%;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.doctor-profile .user-detail input {
+  margin-bottom: 1rem;
+  padding: 0.4rem;
+}

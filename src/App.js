@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from "react";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar-section/Navbar";
+import Branches from "./pages/branches/Branches";
+import DoctorAppointment from "./pages/doctors-section/doctor-appointment/DoctorAppointment";
+import DoctorModal from "./pages/doctors-section/doctorModal/DoctorModal";
+import Doctors from "./pages/doctors-section/Doctors";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Home />} />
+          <Route path="branches/:clinicId" element={<Branches />} />
+          <Route path="doctors/:branchDoctor" element={<Doctors />} />
+          <Route path="doctor-appointment/:doctorid" element={<DoctorAppointment />} />
+        </Route>
+      </Routes>
+    </Fragment>
   );
 }
 
